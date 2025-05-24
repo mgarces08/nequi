@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nequi.franchise.nequi.services.ProductServiceTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-05-24T11:14:21.854Z" hostname="MacBook-Pro-de-Mauricio.local" time="0.141">
+  <properties/>
+  <testcase name="Test Create Product Not Branch Office" classname="com.nequi.franchise.nequi.services.ProductServiceTest" time="0.097"/>
+  <testcase name="Test GetTopStockProductsByFranchise" classname="com.nequi.franchise.nequi.services.ProductServiceTest" time="0.023"/>
+  <testcase name="Test Update Name Success" classname="com.nequi.franchise.nequi.services.ProductServiceTest" time="0.005"/>
+  <testcase name="Test Update Stock Product Not Exist" classname="com.nequi.franchise.nequi.services.ProductServiceTest" time="0.003"/>
+  <testcase name="Test Create Product Success" classname="com.nequi.franchise.nequi.services.ProductServiceTest" time="0.003"/>
+  <testcase name="Test Update Stock Success" classname="com.nequi.franchise.nequi.services.ProductServiceTest" time="0.003"/>
+  <testcase name="Test Update Name Not Exist" classname="com.nequi.franchise.nequi.services.ProductServiceTest" time="0.003"/>
+  <testcase name="Test Delete Product Success" classname="com.nequi.franchise.nequi.services.ProductServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
