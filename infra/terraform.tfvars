@@ -1,6 +1,9 @@
-aws_region        = "us-east-1"
-subnet_ids        = ["subnet-abc123", "subnet-def456"]
-security_group_id = "sg-0123456789abcdef0"
-db_username       = "admin"
-db_password       = "admin"
-db_name           = "nequi"
+aws_region         = "us-east-1"
+vpc_id             = "vpc-nequi-test"
+subnet_ids         = ["subnet-nequi1", "subnet-nequi2"]
+security_group_id  = "sg-nequi_rds"
+security_group_ecs = "sg-nequi_ecs"
+db_username        = "admin"
+db_password        = "admin"
+db_name            = "nequi"
+image_tag          = "${{ secrets.ECR_REGISTRY }}/nequi-ecr:latest"

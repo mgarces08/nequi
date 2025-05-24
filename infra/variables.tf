@@ -10,6 +10,10 @@ variable "security_group_id" {
   type = string
 }
 
+variable "security_group_ecs" {
+  type = string
+}
+
 variable "db_username" {
   type = string
 }
@@ -20,5 +24,9 @@ variable "db_password" {
 }
 
 variable "db_name" {
+  type = string
+}
+
+variable "image_tag" {
   type = string
 }

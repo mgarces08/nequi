@@ -49,6 +49,10 @@ Se requiere construir un API para manejar una lista de franquicias. Una franquic
     ```bash
     docker-compose up --build
 
+4. Acceder al swagger:
+   ```bash
+   http://localhost:8080/swagger-ui/index.html#/
+
 ## Despliegue en AWS
 
 ### Requisitos Previos

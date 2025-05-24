@@ -25,8 +25,8 @@ jobs:
       - name: Build, tag, and push image
         run: |
           docker build -t nequi .
-          docker tag my-api:latest ${{ secrets.ECR_REGISTRY }}/my-api:latest
-          docker push ${{ secrets.ECR_REGISTRY }}/my-api:latest
+          docker tag nequi:latest ${{ secrets.ECR_REGISTRY }}/nequi-ecr:latest
+          docker push ${{ secrets.ECR_REGISTRY }}/nequi-ecr:latest
 
       - name: Deploy to ECS
         run: |
