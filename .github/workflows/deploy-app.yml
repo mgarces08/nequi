@@ -24,15 +24,15 @@ jobs:
 
       - name: Build, tag, and push image
         run: |
-          docker build -t my-api .
+          docker build -t nequi .
           docker tag my-api:latest ${{ secrets.ECR_REGISTRY }}/my-api:latest
           docker push ${{ secrets.ECR_REGISTRY }}/my-api:latest
 
       - name: Deploy to ECS
         run: |
           aws ecs update-service \
-            --cluster my-cluster \
-            --service my-service \
+            --cluster nequi-cluster \
+            --service franchise-service \
             --force-new-deployment
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}

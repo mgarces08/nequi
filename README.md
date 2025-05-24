@@ -83,8 +83,6 @@ Los workflows se activan automáticamente al realizar cambios en los directorios
 
 A continuación, se describe el diagrama de arquitectura del proyecto:
 
-![Arquitectura del Proyecto](docs/architecture.png)
-
 ```mermaid
 graph TD
   Dev[Desarrollador] -->|Push a GitHub| GitHubActions[GitHub Actions]
