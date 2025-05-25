@@ -67,12 +67,16 @@ Se requiere construir un API para manejar una lista de franquicias. Una franquic
    cd infra
 
 2. Inicializar Terraform:
+   ```bash
+   terraform init
 
+3. Visualizar cambios de infraestructura
+   ```bash
+   terraform plan -input=false
 
-3. Aplicar la configuración:
-
-
-4. Actualizar las variables de entorno en la aplicación para que apunten a la nueva base de datos en AWS.
+4. Aplicar la configuración:
+   ```bash
+   terraform apply -auto-approve -input=false
 
 ## Automatización con GitHub Actions
 
